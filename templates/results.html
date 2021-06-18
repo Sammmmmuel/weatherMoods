@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block content %}
+
+<section>
+    <h1>Weather in {{city}}</h1>
+    <p> on {{date}}</p>
+
+    <ul>
+        <!-- <li>Temperature: {{temp}} {{units_letter}}</li> -->
+        <!-- <li>Description: {{description}} </li> -->
+        <li>It is {{temp}}F with {{description}} and you're feeling {{mood}}</li>
+    </ul>
+
+</section>
+{% endblock %}
